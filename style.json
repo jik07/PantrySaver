@@ -1,0 +1,25 @@
+{
+	  "QStackedWidget": [
+		    {
+			      "name": "pages",
+			      "navigation": [
+				        {
+                    "nextPage": "right_arrow",
+                    "previousPage": "left_arrow"
+				        }
+			      ],
+            "transitionAnimation": [
+                {
+                    "slide": [
+                        {
+                            "active": true,
+                            "duration": 1000,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ]
+		    }
+	  ]
+}
